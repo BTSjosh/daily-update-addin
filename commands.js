@@ -27,24 +27,24 @@ function dailyUpdate(event) {
     '<div style="font-family:Calibri,Arial,sans-serif;font-size:11pt">' +
       '<p><b>Work Completed / In Progress:</b></p>' +
       '<ul>' +
-        '<li>Cameras installed: [#]</li>' +
-        '<li>Data / LV cables pulled: [#]</li>' +
-        '<li>Penetrations sealed: [#]</li>' +
+        '<li>Cameras installed:&nbsp;</li>' +
+        '<li>Data / LV cables pulled:&nbsp;</li>' +
+        '<li>Penetrations sealed:&nbsp;</li>' +
       '</ul>' +
       '<p><b>Location(s):</b></p>' +
       '<ul>' +
-        '<li>Building / Floor / Area: [ ]</li>' +
-        '<li>Closet(s): [ ]</li>' +
+        '<li>Building / Floor / Area:&nbsp;</li>' +
+        '<li>Closet(s):&nbsp;</li>' +
       '</ul>' +
       '<p><b>Scope Details:</b></p>' +
       '<ul>' +
-        '<li>Camera types installed: [ ]</li>' +
-        '<li>Technicians on site: [ ]</li>' +
+        '<li>Camera types installed:&nbsp;</li>' +
+        '<li>Technicians on site:&nbsp;</li>' +
       '</ul>' +
       '<p><b>Notes / Constraints:</b></p>' +
-      '<ul><li>[ ]</li></ul>' +
+      '<ul><li>&nbsp;</li></ul>' +
       '<p><b>Plan for Next Workday:</b></p>' +
-      '<ul><li>[ ]</li></ul>' +
+      '<ul><li>&nbsp;</li></ul>' +
     '</div>';
 
   item.body.prependAsync(html, { coercionType: Office.CoercionType.Html }, function () {
