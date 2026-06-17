@@ -39,7 +39,7 @@ function dailyUpdate(event) {
       '<p><b>Scope Details:</b></p>' +
       '<ul>' +
         '<li>Camera types installed:&nbsp;</li>' +
-        '<li>Technicians on site:&nbsp;</li>' +
+        '<li>Technicians on site:&nbsp;4</li>' +
       '</ul>' +
       '<p><b>Notes / Constraints:</b></p>' +
       '<ul><li>&nbsp;</li></ul>' +
