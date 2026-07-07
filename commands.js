@@ -31,7 +31,7 @@ function dailyUpdate(event) {
           '<ul>' +
             '<li>QNV-C8083R</li>' +
             '<li>TNV-8011C</li>' +
-            '<li>TNV-8011C</li>' +
+            '<li>QNF-8010</li>' +
           '</ul>' +
         '</li>' +
         '<li>Data / LV cables pulled:&nbsp;</li>' +
