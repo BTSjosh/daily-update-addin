@@ -40,7 +40,7 @@ function dailyUpdate(event) {
       '<p><b>Location(s):</b></p>' +
       '<ul>' +
         '<li>Building / Floor / Area:&nbsp;</li>' +
-        '<li>Closet(s):&nbsp;</li>' +
+        '<li>Closet(s):&nbsp;IDF</li>' +
       '</ul>' +
       '<p><b>Scope Details:</b></p>' +
       '<ul>' +
@@ -50,7 +50,7 @@ function dailyUpdate(event) {
       '<p><b>Notes / Constraints:</b></p>' +
       '<ul><li>&nbsp;</li></ul>' +
       '<p><b>Plan for Next Workday:</b></p>' +
-      '<ul><li>&nbsp;</li></ul>' +
+      '<ul><li>Install cameras for IDF</li></ul>' +
     '</div>';
 
   item.body.prependAsync(html, { coercionType: Office.CoercionType.Html }, function () {
