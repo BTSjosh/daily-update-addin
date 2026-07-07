@@ -27,7 +27,13 @@ function dailyUpdate(event) {
     '<div style="font-family:Calibri,Arial,sans-serif;font-size:11pt">' +
       '<p><b>Work Completed / In Progress:</b></p>' +
       '<ul>' +
-        '<li>Cameras installed:&nbsp;</li>' +
+        '<li>Cameras installed:&nbsp;' +
+          '<ul>' +
+            '<li>QNV-C8083R</li>' +
+            '<li>TNV-8011C</li>' +
+            '<li>TNV-8011C</li>' +
+          '</ul>' +
+        '</li>' +
         '<li>Data / LV cables pulled:&nbsp;</li>' +
         '<li>Penetrations sealed:&nbsp;</li>' +
       '</ul>' +
